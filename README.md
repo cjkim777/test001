@@ -19,7 +19,7 @@ classDiagram
         + registerUser(id: String, pw: String, name: String, phone: String, address: String) boolean
         + updateUser(id: String, pw: String, name: String, phone: String, address: String) boolean
         + deleteUser(id: String) boolean
-        + searchUser(id: String) User
+        + searchUser(id: String) boolean
     }
 
     class Account {
